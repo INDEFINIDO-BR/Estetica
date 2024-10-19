@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F2F2F2;
 }
 
-header{
-    
+header {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,65 +22,69 @@ header{
     border-radius: 0px 0px 30px 30px;
     margin: 0 auto;
     box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.06);
-    
+
 }
 
-.texto-header{
+.texto-header {
     margin-top: -220px;
     margin-left: 100px;
 }
 
-.logo-topo{
+.logo-topo {
     margin-top: -40px;
     margin-bottom: 20px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-a{
-  text-decoration: none;
-  color: #f67b99;
-  font-size: 18px;
-  font-family: "Playfair", serif;
-  font-weight: 600;
+a {
+    text-decoration: none;
+    color: #f67b99;
+    font-size: 18px;
+    font-family: "Playfair", serif;
+    font-weight: 600;
 }
 
-a:hover{
-    color:  #b83858;
+a:hover {
+    color: #b83858;
     transition: .4s;
     text-decoration: underline;
 }
 
-.parte-01{
+.parte-01 {
 
     display: flex;
     justify-content: space-around;
     align-items: center;
-   h1{
-    max-width: 450px;
-    line-height: 52px;
-    color: #F27294;
-    font-size: 55px;
-    font-family: "Playfair", serif;
-    font-style: italic;
-    margin-bottom: 10px;
-   }
-  
-   p{
-    max-width: 300px;
-    font-family: "Playfair", serif;
-    font-weight: 500;
-    font-size: 17px;
-    color: #F27294;
-    margin-bottom: 12px;
-   }
+
+    max-width: 1500px;
+    margin: 0 auto;
+
+    h1 {
+        max-width: 450px;
+        line-height: 52px;
+        color: #F27294;
+        font-size: 55px;
+        font-family: "Playfair", serif;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+
+    p {
+        max-width: 300px;
+        font-family: "Playfair", serif;
+        font-weight: 500;
+        font-size: 17px;
+        color: #F27294;
+        margin-bottom: 12px;
+    }
 }
 
-.btn-01{
+.btn-01 {
     background-color: #f67b99;
     width: 170px;
     padding: 8px;
@@ -94,7 +98,7 @@ a:hover{
     font-weight: bold;
 }
 
-.btn-header{
+.btn-header {
     background-color: #f67b99;
     width: 170px;
     padding: 10px;
@@ -106,17 +110,17 @@ a:hover{
     font-family: "Playfair", serif;
     font-size: 16px;
     font-weight: bold;
-  }
-  
-  .btn-header:hover{
-    background-color:   #b83858;
+}
+
+.btn-header:hover {
+    background-color: #b83858;
     transition: .4s;
-  }
+}
 
 
 
-.waleria-img{
+.waleria-img {
     width: 450px;
     margin-top: -40px;
     margin-right: 100px;
-  }
+}
