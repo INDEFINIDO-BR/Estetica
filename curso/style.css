@@ -60,6 +60,12 @@ a:hover {
     text-decoration: underline;
 }
 
+
+
+
+
+/*curos*/
+
 .Inicio-part 
 {
     display: flex;
@@ -76,50 +82,61 @@ h1
     font-weight: 300;
     font-size: 5vw;
 }
-h2 
-{
+
+
+
+
+/*cursos*/
+
+.part-cursos
+{   height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f67b99;
     font-family: "Playfair", serif;
-    color:#b83858;
-    font-weight: 500;
-    font-size: 3vw;
+    color:#F8F8F8;
+    font-weight: 300;
+    font-size: 2rem;
+    box-shadow: 2px 1px 31px 1px rgba(246,123,153,0.7);
+    border-radius: 10px;
+    
+}
+h2  {
+    font-size: 3rem;
+}
+li
+{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.img-cursos {
+    border-radius: 5px;
+    box-shadow: 2px 1px 31px 1px rgba(0,0,0,0.7);
+}
+.img-cursos {
+    opacity: 0.6;
+
+}
+img:hover {
+    opacity: 1;
 }
 
- .cursos-part 
- {  
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     background-color: #f67b99;
-     border-radius: 30px;
-     margin:40px;
-     padding-top: 70px;
-     gap: 50px;
 
- }
+footer {
 
- .img-cursos
- {  border-radius: 20px;
-    box-shadow: -5px 2px 14px 0px rgba(0,0,0,0.75);
- }
- .img-cursos > img
- {
-    opacity: 0.4;
- }
- img:hover
- {
-    opacity: 1;
-    transition: opacity 0.5s ease;
- }
- .text-1
- {
-  display: none;
-  position: absolute;
-  justify-content: center;
-  font-family: "Playfair", serif;
-  padding-top: 200px;
-  font-size: 2vw;
- }
-
- .text-1:hover {
-    display: block;
- }
+   display: flex;
+   justify-content: center;
+   margin-top:100px;
+   font-family: "Playfair", serif;
+   
+}
+.final
+{
+    display: flex;
+    justify-content: space-around;
+}
