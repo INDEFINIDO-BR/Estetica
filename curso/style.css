@@ -93,7 +93,7 @@ h1
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    gap: 20vh;
     margin: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -106,37 +106,61 @@ h1
     border-radius: 10px;
     
 }
+
 h2  {
     font-size: 3rem;
 }
 li
 {
-    list-style: none;
     font-size: 1.5rem;
+}
+span {
+    font-size: 1.9rem;
+    color: #F8F8F8;
+    font-weight: 600;
 }
 .img-cursos {
     border-radius: 5px;
     box-shadow: 2px 1px 31px 1px rgba(0,0,0,0.7);
 }
-.img-cursos {
-    opacity: 0.6;
 
+
+/*footer*/
+
+footer > img 
+{
+   padding-top: 50px;
 }
-img:hover {
-    opacity: 1;
-}
-
-
 footer {
 
    display: flex;
    justify-content: center;
-   margin-top:100px;
+   margin-top:15px;
+   padding-top: 30px;
    font-family: "Playfair", serif;
+
+   
+   
    
 }
 .final
 {
     display: flex;
     justify-content: space-around;
+    background: #f67b99;
+    padding-top: 30px;
+    border-radius: 5px;
+    box-shadow: 12px -10px 128px 5px rgba(246,123,153,0.7);
+   
+   
+    
+    
 }
+footer, li {
+      color: #F8F8F8;
+}
+footer, li:hover 
+{
+    color: black;
+}
+
