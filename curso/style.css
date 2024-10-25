@@ -97,7 +97,7 @@ h1
     margin: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #f67b99;
+    background:#8C354C;
     font-family: "Playfair", serif;
     color:#F8F8F8;
     font-weight: 300;
@@ -147,7 +147,7 @@ footer {
 {
     display: flex;
     justify-content: space-around;
-    background: #f67b99;
+    background: #8C354C;
     padding-top: 30px;
     border-radius: 5px;
     box-shadow: 12px -10px 128px 5px rgba(246,123,153,0.7);
