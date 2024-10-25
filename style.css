@@ -202,7 +202,9 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 700px;
+    width: 85%;
+    max-width: 700px;
+    margin: 0 auto; 
 
     h1 {
         font-size: 90px;
@@ -217,7 +219,7 @@ a:hover {
         margin-top: 30px;
         font-weight: 500;
         font-family: "Playfair", serif;
-
+        text-align: justify;
         color: #A63F65;
     }
 
@@ -358,8 +360,9 @@ footer, li:hover
     }
 
     .p-do-sobre {
+        max-width: 650px;
         font-size: 1.4rem;
-        text-align: center;
+        text-align: justify;
         line-height: 1.4;
     }
 }
