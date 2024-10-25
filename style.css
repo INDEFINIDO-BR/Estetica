@@ -390,8 +390,9 @@ footer, li:hover
         flex-direction: column;
         text-align: center;
 
+
         p{
-            margin-left: 10px;
+            margin-left: 25px;
             margin-bottom: 20px;
         }
 
@@ -411,7 +412,7 @@ footer, li:hover
     .waleria-img {
         width: 100%;
         margin-top: 15px;
-        margin-left: 20px;
+        margin-right: 25px;
     }
 
     .sobre-mim {
@@ -427,6 +428,10 @@ footer, li:hover
     .logo-sobre{
         margin-left: 50px;
         
+    }
+
+    .image-sobre{
+        margin-left: 50px;
     }
 }
 
