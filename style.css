@@ -43,7 +43,7 @@ nav {
 
     a {
         text-decoration: none;
-        color: #f67b99;
+        color: #A63F65;
         font-size: 18px;
         font-family: "Playfair", serif;
         font-weight: 600;
@@ -68,7 +68,7 @@ a:hover {
     h1 {
         max-width: 450px;
         line-height: 52px;
-        color: #F27294;
+        color: #8C354C;
         font-size: 55px;
         font-family: "Playfair", serif;
         font-style: italic;
@@ -76,11 +76,12 @@ a:hover {
     }
 
     p {
-        max-width: 300px;
+        max-width: 350px;
         font-family: "Playfair", serif;
         font-weight: 500;
-        font-size: 17px;
-        color: #F27294;
+        font-size: 18px;
+        color: #A63F65;
+        line-height: 20px;
         margin-bottom: 12px;
     }
 }
@@ -100,7 +101,7 @@ a:hover {
 }
 
 .btn-header {
-    background-color: #f67b99;
+    background-color: #8C354C;
     width: 170px;
     padding: 10px;
     outline: none;
@@ -121,24 +122,26 @@ a:hover {
 
 
 .waleria-img {
-    width: 27%;
-    margin-top: -20px;
+    width: 450px;
+    margin-top: -40px;
     margin-right: 100px;
 }
 
-/*style da div/section de procedimento*/
 
+
+/*style da div/section de procedimento*/
 .procedimentos {
     margin-top: 50px;
     text-align: center;
 
-    background-color: #F27294;
+    background-color: #8C354C;
 
 
     h2 {
         color: #FFFFFF00;
+        font-family: "Plush", Sans-serif;
         font-size: 60px;
-        font-weight: 600;
+        font-weight: 900;
         -webkit-text-stroke-width: 0.8px;
         stroke-width: 0.8px;
         -webkit-text-stroke-color: #FFFFFF;
@@ -147,6 +150,7 @@ a:hover {
 
     span {
         color: white;
+        text-decoration: underline solid 4px #47627C;
     }
 }
 
@@ -180,6 +184,7 @@ a:hover {
 }
 
 
+
 /*style sobre-min*/
 
 .div-sobre {
@@ -205,7 +210,7 @@ a:hover {
         font-weight: 900;
         align-items: center;
         font-family: "Playfair", serif;
-        color: #f67b99;
+        color: #8C354C;
     }
 
     p {
@@ -214,7 +219,7 @@ a:hover {
         font-weight: 500;
         font-family: "Playfair", serif;
 
-        color: #F27294;
+        color: #A63F65;
     }
 
     img {
@@ -230,7 +235,7 @@ a:hover {
     flex-direction: column;
 
 
-    background-color: #F27294;
+    background-color: #8C354C;
 
     h1 {
         font-family: "Playfair", serif;
@@ -263,101 +268,42 @@ a:hover {
     }
 }
 
-/*cursos*/
 
+/*footer*/
 
-
-
-
-/* Media queries para dispositivos móveis */
-@media (max-width: 768px) {
-
-    /* Ajustes para tablets */
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo-topo {
-        width: 35%;
-    }
-
-    nav {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .parte-01 {
-        flex-direction: column;
-        text-align: center;
-        margin: 230px 0 0 24px;
-    }
-
-    .texto-header {
-        width: 100%;
-    }
-
-    .waleria-img {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .sobre-mim {
-        padding: 10px;
-    }
-
-    .div-sobre {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .p-do-sobre {
-        font-size: 1.4rem;
-        text-align: center;
-        line-height: 1.4;
-    }
+footer > img 
+{
+   padding-top: 50px;
 }
+footer {
 
-@media (max-width: 576px) {
-
-    /* Ajustes para smartphones */
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo-topo {
-        width: 45%;
-    }
-
-    nav {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .parte-01 {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .texto-header {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .waleria-img {
-        width: 100%;
-        margin-top: 15px;
-    }
-
-    .sobre-mim {
-        padding: 5px;
-    }
+   display: flex;
+   justify-content: center;
+   margin-top:15px;
+   padding-top: 30px;
+   font-family: "Playfair", serif;
+   
+   
+   
+   
+}
+.final
+{
+    display: flex;
+    justify-content: space-around;
+    background: #f67b99;
+    padding-top: 30px;
+    border-radius: 5px;
+    box-shadow: 12px -10px 128px 5px rgba(246,123,153,0.7);
+   
+   
+    
+    
+}
+footer, li {
+      color: #F8F8F8;
+}
+footer, li:hover 
+{
+    color: black;
 }
