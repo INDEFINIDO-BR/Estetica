@@ -64,6 +64,7 @@ a:hover {
 
     max-width: 1500px;
     margin: 0 auto;
+    
 
     h1 {
         max-width: 450px;
@@ -234,7 +235,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    padding: 20px;
 
     background-color: #8C354C;
 
@@ -251,6 +252,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     gap: 60px;
 
@@ -387,19 +389,65 @@ footer, li:hover
     .parte-01 {
         flex-direction: column;
         text-align: center;
+
+        p{
+            margin-left: 10px;
+            margin-bottom: 20px;
+        }
+
+        a{
+            margin-left: 10px;
+            
+        }
     }
 
     .texto-header {
         width: 100%;
+        margin-left: -20px;
+        text-align: center;
         font-size: 14px;
     }
 
     .waleria-img {
         width: 100%;
         margin-top: 15px;
+        margin-left: 20px;
     }
 
     .sobre-mim {
         padding: 5px;
+    }
+
+    .pilares{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+
+    .logo-sobre{
+        margin-left: 50px;
+        
+    }
+}
+
+/* PILARES */
+
+@media (max-width: 768px) {
+    .pilares .div-pilares {
+        gap: 40px;
+    }
+
+    .pilares .div-pilares div {
+        flex: 1 1 45%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .pilares h1 {
+        font-size: 40px; 
+    }
+
+    .pilares .div-pilares div {
+        flex: 1 1 100%; 
     }
 }
