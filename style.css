@@ -43,7 +43,7 @@ nav {
 
     a {
         text-decoration: none;
-        color: #f67b99;
+        color: #A63F65;
         font-size: 18px;
         font-family: "Playfair", serif;
         font-weight: 600;
@@ -68,7 +68,7 @@ a:hover {
     h1 {
         max-width: 450px;
         line-height: 52px;
-        color: #F27294;
+        color: #8C354C;
         font-size: 55px;
         font-family: "Playfair", serif;
         font-style: italic;
@@ -76,11 +76,12 @@ a:hover {
     }
 
     p {
-        max-width: 300px;
+        max-width: 350px;
         font-family: "Playfair", serif;
         font-weight: 500;
-        font-size: 17px;
-        color: #F27294;
+        font-size: 18px;
+        color: #A63F65;
+        line-height: 20px;
         margin-bottom: 12px;
     }
 }
@@ -100,7 +101,7 @@ a:hover {
 }
 
 .btn-header {
-    background-color: #f67b99;
+    background-color: #8C354C;
     width: 170px;
     padding: 10px;
     outline: none;
@@ -133,7 +134,7 @@ a:hover {
     margin-top: 50px;
     text-align: center;
 
-    background-color: #F27294;
+    background-color: #8C354C;
 
 
     h2 {
@@ -209,7 +210,7 @@ a:hover {
         font-weight: 900;
         align-items: center;
         font-family: "Playfair", serif;
-        color: #f67b99;
+        color: #8C354C;
     }
 
     p {
@@ -218,7 +219,7 @@ a:hover {
         font-weight: 500;
         font-family: "Playfair", serif;
 
-        color: #F27294;
+        color: #A63F65;
     }
 
     img {
@@ -234,7 +235,7 @@ a:hover {
     flex-direction: column;
 
 
-    background-color: #F27294;
+    background-color: #8C354C;
 
     h1 {
         font-family: "Playfair", serif;
