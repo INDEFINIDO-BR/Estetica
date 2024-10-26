@@ -9,6 +9,7 @@
 body {
     background-color: #F8F8F8;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 header {
@@ -64,7 +65,7 @@ a:hover {
 
     max-width: 1500px;
     margin: 0 auto;
-    
+
 
     h1 {
         max-width: 450px;
@@ -140,9 +141,8 @@ a:hover {
 
     h2 {
         color: #FFFFFF00;
-        font-family: "Plush", Sans-serif;
         font-size: 60px;
-        font-weight: 549;
+        font-weight: 900;
         -webkit-text-stroke-width: 0.8px;
         stroke-width: 0.8px;
         -webkit-text-stroke-color: #FFFFFF;
@@ -157,6 +157,11 @@ a:hover {
 .section-corrosel {
     max-width: 1500px;
     margin: 0 auto;
+}
+
+.section-corrosel img {
+    border-radius: 5px;
+    box-shadow: 2px 1px 31px 1px rgba(0, 0, 0, 0.7);
 }
 
 .carousel-caption {
@@ -184,6 +189,59 @@ a:hover {
 }
 
 
+/*style do curso*/
+
+.Inicio-part {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cap-20 {
+    font-size: 50px;
+    font-weight: 900;
+    align-items: center;
+    font-family: "Playfair", serif;
+    color: #8C354C;
+}
+
+
+.part-cursos {
+    width: 100%;
+    gap: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    display: flex;
+
+    background-color: #8C354C;
+
+    h2 {
+        font-size: 2.8rem;
+
+    }
+
+    li {
+        font-size: 1.4rem;
+    }
+
+    span {
+        font-size: 1.9rem;
+        color: #F8F8F8;
+        font-weight: 600;
+    }
+
+    .img-cursos {
+        border-radius: 5px;
+        box-shadow: 2px 1px 31px 1px rgba(0, 0, 0, 0.7);
+
+    }
+}
+
+
+
 
 /*style sobre-min*/
 
@@ -205,7 +263,7 @@ a:hover {
     justify-content: center;
     width: 85%;
     max-width: 700px;
-    margin: 0 auto; 
+    margin: 0 auto;
 
     h1 {
         font-size: 90px;
@@ -274,42 +332,39 @@ a:hover {
 
 /*footer*/
 
-footer > img 
-{
-   padding-top: 50px;
+footer>img {
+    padding-top: 50px;
 }
+
 footer {
 
-   display: flex;
-   justify-content: center;
-   margin-top:15px;
-   padding-top: 30px;
-   font-family: "Playfair", serif;
-   
-   
-   
-   
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-top: 30px;
+    font-family: "Playfair", serif;
 }
-.final
-{
+
+.final {
     display: flex;
     justify-content: space-around;
     background: #8C354C;
     padding-top: 30px;
     border-radius: 5px;
-    box-shadow: 12px -10px 128px 5px rgba(246,123,153,0.7);
-   
-   
-    
-    
+    box-shadow: 12px -10px 128px 5px rgba(246, 123, 153, 0.7);
 }
-footer, li {
-      color: #F8F8F8;
+
+footer,
+li {
+    color: #F8F8F8;
 }
-footer, li:hover 
-{
+
+footer,
+li:hover {
     color: black;
 }
+
+
 
 
 /* Media queries para dispositivos móveis */
@@ -367,6 +422,25 @@ footer, li:hover
         text-align: justify;
         line-height: 1.4;
     }
+
+    .part-cursos {
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .img-cursos {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .final {
+        flex-direction: column;
+    }
+
+    .procedimentos span {
+        font-size: 3.2rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -391,16 +465,16 @@ footer, li:hover
         text-align: center;
 
 
-        p{
+        p {
             margin-left: 25px;
             margin-bottom: 20px;
         }
 
-        a{
+        a {
             margin-left: 10px;
-            
+
         }
-      
+
     }
 
     .texto-header {
@@ -420,19 +494,38 @@ footer, li:hover
         padding: 5px;
     }
 
-    .pilares{
+    .pilares {
         display: flex;
         flex-wrap: wrap;
-      
+
     }
 
-    .logo-sobre{
+    .logo-sobre {
         margin-left: 50px;
-        
+
     }
 
-    .image-sobre{
+    .image-sobre {
         margin-left: 50px;
+    }
+
+    .part-cursos {
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .img-cursos {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .final {
+        flex-direction: column;
+    }
+
+    .procedimentos span {
+        font-size: 3.2rem;
     }
 }
 
@@ -444,16 +537,22 @@ footer, li:hover
     }
 
     .pilares .div-pilares div {
-        flex: 1 1 45%; 
+        flex: 1 1 45%;
     }
 }
 
 @media (max-width: 480px) {
     .pilares h1 {
-        font-size: 40px; 
+        font-size: 40px;
     }
 
     .pilares .div-pilares div {
-        flex: 1 1 100%; 
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    .part-cursos {
+        gap: 23px;
     }
 }
