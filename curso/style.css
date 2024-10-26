@@ -1,67 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #F8F8F8;
-    height: 100vh;
-}
-
-header {
-
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-    max-width: 90%;
-    background-color: white;
-    border-radius: 0px 0px 30px 30px;
-    margin: 0 auto;
-    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.06);
-    
-
-
-}
-
-.texto-header {
-    margin-top: -220px;
-    margin-left: 100px;
-}
-
-.logo-topo {
-    margin-top: -40px;
-    margin-bottom: 20px;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
-
-    a {
-        text-decoration: none;
-        color: #f67b99;
-        font-size: 18px;
-        font-family: "Playfair", serif;
-        font-weight: 600;
-    }
-}
-
-a:hover {
-    color: #b83858;
-    transition: .4s;
-    text-decoration: underline;
-}
-
-
-
 
 
 /*curos*/
@@ -72,13 +10,14 @@ a:hover {
     justify-content: center;
     
 }
-h1 
+
+.cap-20
 {
     display:flex;
     justify-content: center;
     margin-top: 20px;
     font-family: "Playfair", serif;
-    color: #f67b99;
+    color: #8c354c;
     font-weight: 300;
     font-size: 5vw;
 }
@@ -89,21 +28,20 @@ h1
 /*cursos*/
 
 .part-cursos
-{   height: 400px;
+{  width: 100%; 
+    height: 400px;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    gap: 20vh;
-    margin: 25px;
+    gap: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
     background:#8C354C;
     font-family: "Playfair", serif;
     color:#F8F8F8;
-    font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.5rem;
     box-shadow: 2px 1px 31px 1px rgba(246,123,153,0.7);
-    border-radius: 10px;
+   
     
 }
 
@@ -112,7 +50,7 @@ h2  {
 }
 li
 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 span {
     font-size: 1.9rem;
@@ -156,11 +94,5 @@ footer {
     
     
 }
-footer, li {
-      color: #F8F8F8;
-}
-footer, li:hover 
-{
-    color: black;
-}
+
 
