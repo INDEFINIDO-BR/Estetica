@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -79,8 +79,8 @@ a:hover {
 
     p {
         max-width: 350px;
-        font-family: "Playfair", serif;
-        font-weight: 500;
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
         font-size: 18px;
         color: #A63F65;
         line-height: 20px;
@@ -140,6 +140,7 @@ a:hover {
 
 
     h2 {
+        font-family: "Playfair", serif;
         color: #FFFFFF00;
         font-size: 60px;
         font-weight: 900;
@@ -207,40 +208,29 @@ a:hover {
     color: #8C354C;
 }
 
-
-.part-cursos {
-    width: 100%;
-    gap: 150px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 50px;
+.text-curso{
+    margin: 0 auto;
     display: flex;
-
-    background-color: #8C354C;
-
-    h2 {
-        font-size: 2.8rem;
-
-    }
-
-    li {
-        font-size: 1.4rem;
-    }
-
-    span {
-        font-size: 1.9rem;
-        color: #F8F8F8;
-        font-weight: 600;
-    }
-
-    .img-cursos {
-        border-radius: 5px;
-        box-shadow: 2px 1px 31px 1px rgba(0, 0, 0, 0.7);
-
-    }
+    gap: 100px;
 }
 
+.text-curso02{
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+}
 
+.cursos-atual{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 25px;
+}
+
+.titulo-cursos{
+    text-align: center;
+}
 
 
 /*style sobre-min*/
@@ -250,8 +240,10 @@ a:hover {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    background-color: #f57493;
 
     img {
+        margin: 0 auto;
         width: 400px;
         margin-right: 40px;
     }
@@ -266,20 +258,20 @@ a:hover {
     margin: 0 auto;
 
     h1 {
-        font-size: 90px;
+        font-size: 70px;
         font-weight: 900;
         align-items: center;
         font-family: "Playfair", serif;
-        color: #8C354C;
+        color: white;
     }
 
     p {
         font-size: 20px;
         margin-top: 30px;
-        font-weight: 500;
-        font-family: "Playfair", serif;
+        font-weight: 400;
+        font-family: "Outfit", sans-serif;
         text-align: justify;
-        color: #A63F65;
+        color: white;
     }
 
     img {
