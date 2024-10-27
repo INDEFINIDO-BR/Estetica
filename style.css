@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -208,39 +209,46 @@ a:hover {
     color: #8C354C;
 }
 
-.text-curso{
+.text-curso {
     margin: 0 auto;
     display: flex;
     gap: 100px;
 }
 
-.text-curso02{
+.text-curso02 {
     margin: 0 auto;
     display: flex;
     gap: 100px;
 }
 
-.cursos-atual{
+.cursos-atual {
     display: flex;
     align-items: center;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 25px;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 25px;
 }
 
-.titulo-cursos{
+.titulo-cursos {
     text-align: center;
 }
 
 
 /*style sobre-min*/
 
+.sobre {
+    background-color: #f57493;
+    margin-top: 10px;
+}
+
 .div-sobre {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    background-color: #f57493;
+
+    max-width: 1500px;
+    margin: 0 auto;
 
     img {
         margin: 0 auto;
