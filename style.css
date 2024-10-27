@@ -133,61 +133,72 @@ a:hover {
 
 
 /*style da div/section de procedimento*/
-.procedimentos {
-    margin-top: 50px;
+.procedures {
     text-align: center;
-
-    background-color: #8C354C;
-
-
-    h2 {
-        font-family: "Playfair", serif;
-        color: #FFFFFF00;
-        font-size: 60px;
-        font-weight: 900;
-        -webkit-text-stroke-width: 0.8px;
-        stroke-width: 0.8px;
-        -webkit-text-stroke-color: #FFFFFF;
-        stroke: #FFFFFF;
-    }
-
-    span {
-        color: white;
-    }
+    padding: 2rem;
 }
 
-.section-corrosel {
-    max-width: 1500px;
-    margin: 0 auto;
+.procedures h2 {
+    font-size: 3rem;
+    color: #8C354C;
+    font-weight: 900;
+    align-items: center;
+    font-family: "Playfair", serif;
 }
 
-.section-corrosel img {
+.procedures p {
+    font-size: 1.1rem;
+    color: #7f7f7f;
+}
+
+.procedures-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+}
+
+.procedure-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.procedure-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.procedure-card h3 {
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem;
+    color: #C86B85;
+}
+
+.procedure-card p {
+    font-size: 0.9rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #8C354C, #C86B85);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
-    box-shadow: 2px 1px 31px 1px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
 }
 
-.carousel-caption {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-
-
-.carousel-item:hover .carousel-caption {
-    opacity: 1;
-}
-
-
-
-.carousel-item img {
-    opacity: 0.8;
-    transition: opacity 0.5s ease;
-}
-
-
-
-.carousel-item:hover img {
-    opacity: 0.6;
+.whatsapp-button:hover {
+    background: linear-gradient(135deg, #C86B85, #8C354C);
 }
 
 
