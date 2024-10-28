@@ -202,7 +202,6 @@ a:hover {
 }
 
 
-/*style do curso*/
 
 /*style do curso*/
 .curso-atual{
@@ -346,41 +345,6 @@ a:hover {
 }
 
 
-/*footer*/
-
-footer>img {
-    padding-top: 50px;
-}
-
-footer {
-
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    padding-top: 30px;
-    font-family: "Playfair", serif;
-}
-
-.final {
-    display: flex;
-    justify-content: space-around;
-    background: #8C354C;
-    padding-top: 30px;
-    border-radius: 5px;
-}
-
-footer,
-li {
-    color: #F8F8F8;
-}
-
-footer,
-li:hover {
-    color: black;
-}
-
-
-
 
 /* Media queries para dispositivos móveis */
 @media (max-width: 768px) {
@@ -457,6 +421,23 @@ li:hover {
         font-size: 3.2rem;
     }
 }
+
+
+
+@media (max-width: 1000px) {
+    .procedures-grid {
+      grid-template-columns: repeat(2, 300px); 
+    }
+  }
+
+
+  @media (max-width: 650px) {
+    .procedures-grid {
+      grid-template-columns: 1fr; 
+    }
+  }
+
+  
 
 @media (max-width: 576px) {
 
