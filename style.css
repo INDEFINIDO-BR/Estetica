@@ -133,27 +133,25 @@ a:hover {
 
 
 /*style da div/section de procedimento*/
+
 .procedures {
     text-align: center;
     padding: 2rem;
+    background-color: #8C354C;
 }
 
 .procedures h2 {
     font-size: 3rem;
-    color: #8C354C;
+    color: white;
     font-weight: 900;
     align-items: center;
     font-family: "Playfair", serif;
 }
 
-.procedures p {
-    font-size: 1.1rem;
-    color: #7f7f7f;
-}
-
 .procedures-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
     gap: 1.5rem;
     margin-top: 2rem;
 
@@ -180,6 +178,8 @@ a:hover {
 }
 
 .procedure-card p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
     font-size: 0.9rem;
     color: #000;
     margin-bottom: 1rem;
@@ -204,52 +204,57 @@ a:hover {
 
 /*style do curso*/
 
-.Inicio-part {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+/*style do curso*/
+.curso-atual{
+    text-align: center;
 
 }
 
-.cap-20 {
-    font-size: 50px;
-    font-weight: 900;
-    align-items: center;
+.title-curso{
+    text-align: center;
+    color: #8C354C;
+    margin-bottom: 20px;
     font-family: "Playfair", serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.cursos-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.container-icones{
+    margin: 0 auto;
+    span{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
+}
+
+.container-text-icones{
+    span{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
+}
+
+.curso-item > h2{
+    font-family: "Playfair", serif;
+    font-style: italic;
     color: #8C354C;
 }
 
-.text-curso {
-    margin: 0 auto;
-    display: flex;
-    gap: 100px;
-}
-
-.text-curso02 {
-    margin: 0 auto;
-    display: flex;
-    gap: 100px;
-}
-
-.cursos-atual {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 25px;
-}
-
-.titulo-cursos {
-    text-align: center;
-}
 
 
 /*style sobre-min*/
 
 .sobre {
-    background-color: #f57493;
-    margin-top: 10px;
+    background-color: #8C354C;
+    margin-top: 50px;
+
 }
 
 .div-sobre {
@@ -306,14 +311,14 @@ a:hover {
     flex-direction: column;
     padding: 20px;
 
-    background-color: #8C354C;
+    background-color: white;
 
     h1 {
         font-family: "Playfair", serif;
         margin-top: 30px;
         font-size: 60px;
         font-weight: 900;
-        color: #F8F8F8;
+        color: #8C354C;
     }
 }
 
@@ -335,7 +340,7 @@ a:hover {
 
         p {
             margin-top: 10px;
-            color: #F8F8F8;
+            color: #8C354C;
         }
     }
 }
@@ -362,7 +367,6 @@ footer {
     background: #8C354C;
     padding-top: 30px;
     border-radius: 5px;
-    box-shadow: 12px -10px 128px 5px rgba(246, 123, 153, 0.7);
 }
 
 footer,
@@ -520,17 +524,17 @@ li:hover {
         margin-left: 50px;
     }
 
-    .part-cursos {
+    .cursos-container{
+        display: flex;
         flex-direction: column;
-        gap: 20px
     }
 
-    .img-cursos {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+    .curso-item{
+        margin-left: 8px;
+        
     }
 
+   
     .final {
         flex-direction: column;
     }
