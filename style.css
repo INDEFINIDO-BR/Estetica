@@ -417,6 +417,12 @@ a:hover {
     font-weight: 450;
 }
 
+#curso-btn02{
+    margin-top: 8px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 450;
+}
+
 
 
 /* Media queries para dispositivos móveis */
