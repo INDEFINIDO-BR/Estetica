@@ -195,6 +195,9 @@ a:hover {
     cursor: pointer;
     font-size: 0.9rem;
     transition: background 0.3s ease;
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 450;
 }
 
 .whatsapp-button:hover {
@@ -406,6 +409,12 @@ a:hover {
         font-family: "Outfit", sans-serif;
         font-weight: 500;
     }
+}
+
+#curso-btn{
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 450;
 }
 
 
