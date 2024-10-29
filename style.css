@@ -130,7 +130,76 @@ a:hover {
     margin-right: 100px;
 }
 
+/* ESTILO NO MENU MOBILE*/
 
+.btn-abrir-menu i {
+    color: #A63F65;
+    font-size: 40px;
+    display: none;
+}
+
+.menu-mobile {
+    background: #00000079;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.menu-mobile.abrir-menu {
+    width: 41%;
+}
+
+.menu-mobile.abrir-menu~.overlay-menu {
+    display: block;
+}
+
+.menu-mobile .btn-fechar {
+    padding: 20px 5%;
+}
+
+.menu-mobile .btn-fechar i {
+    color: #b83858;
+    font-size: 30px;
+}
+
+.menu-mobile nav {
+    text-align: right;
+}
+
+.menu-mobile nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    margin-right: 20px;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover {
+    background-color: #A63F65;
+    color: #000;
+}
+.menu-mobile nav ul a img {
+    width: 150px;
+    margin-right: 26px;
+    border-radius: 24px;
+}
+
+.overlay-menu {
+    background-color: #000000af;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
 
 /*style da div/section de procedimento*/
 
@@ -428,6 +497,10 @@ a:hover {
 /* Media queries para dispositivos móveis */
 @media (max-width: 768px) {
 
+    .btn-abrir-menu i {
+        display: inline-block;
+    }
+
     /* Ajustes para tablets */
     header {
         flex-direction: column;
@@ -616,6 +689,11 @@ a:hover {
 @media (max-width: 768px) {
     .pilares .div-pilares {
         gap: 40px;
+    }
+
+    .menu-desktop
+     {
+        display: none;
     }
 
     .pilares .div-pilares div {
