@@ -576,6 +576,24 @@ a:hover {
         flex-direction: column;
         gap: 20px
     }
+    
+    .curso-item{
+        h2{
+            margin-left: 15px;
+        }
+        img{
+            width: 90%;
+            margin-left: 15px;
+        }
+    }
+
+    .container-text-icones{
+        margin-left: 15px;
+    }
+
+    .container-icones{
+        margin-left: 15px;
+    }
 
     .img-cursos {
         width: 100%;
