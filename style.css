@@ -395,6 +395,19 @@ a:hover {
     opacity: .3;
 }
 
+.copywriting{
+    background-color: #fff;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    padding: 8px;
+    text-align: center;
+    span{
+        color: #8C354C;
+        font-family: "Outfit", sans-serif;
+        font-weight: 500;
+    }
+}
+
 
 
 /* Media queries para dispositivos móveis */
