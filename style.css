@@ -201,6 +201,10 @@ a:hover {
     background: linear-gradient(135deg, #C86B85, #8C354C);
 }
 
+.butao-saiba-mais{
+    margin-top:36px;
+}
+
 
 
 /*style do curso*/
@@ -342,6 +346,29 @@ a:hover {
             color: #8C354C;
         }
     }
+}
+
+/*style de div que contem o icon do whatsapp*/
+.WhatsApp {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50px;
+    border: none;
+}
+
+.WhatsApp:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+.WhatsApp:active {
+    opacity: .3;
 }
 
 
