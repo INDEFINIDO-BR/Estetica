@@ -348,6 +348,30 @@ a:hover {
     }
 }
 
+.secao-endereco{
+    h1{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+    }
+
+    p{
+        font-weight: 450;
+        font-family: "Outfit", sans-serif;
+    }
+}
+
+.secao-redes-sociais{
+    h3{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500;
+    }
+
+    a{
+        font-family: "Outfit", sans-serif;
+        font-weight: 450;
+    }
+}
+
 /*style de div que contem o icon do whatsapp*/
 .WhatsApp {
     position: fixed;
