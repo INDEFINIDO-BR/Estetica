@@ -436,6 +436,8 @@ a:hover {
         p {
             margin-top: 10px;
             color: #8C354C;
+            font-weight: 450;
+            font-family: "Outfit", sans-serif;
         }
     }
 }
