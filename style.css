@@ -219,7 +219,7 @@ a:hover {
 
 .procedures-grid {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 290px);
     justify-content: center;
     gap: 1.5rem;
     margin-top: 2rem;
