@@ -254,6 +254,32 @@ a:hover {
     margin-bottom: 1rem;
 }
 
+.results{
+    h2{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: "Playfair", serif;
+        font-weight: 900;
+        font-size: 55px;
+        color: #8C354C;
+    }
+}
+
+.card-antes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.card-antes{
+    img{
+        border-radius: 20px;
+    }
+}
+
 .whatsapp-button {
     display: inline-block;
     background: linear-gradient(135deg, #8C354C, #C86B85);
@@ -635,6 +661,11 @@ a:hover {
         display: flex;
         flex-direction: column;
     }
+
+    .card-antes{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -748,6 +779,11 @@ a:hover {
     }
 
     .card-coments{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-antes{
         display: flex;
         flex-direction: column;
     }
