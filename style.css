@@ -494,6 +494,11 @@ a:hover {
     }
 }
 
+.conteudo-rodape {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 /*style de div que contem o icon do whatsapp*/
 .WhatsApp {
     position: fixed;
